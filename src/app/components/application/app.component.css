@@ -1,0 +1,16 @@
+div {
+  display: block;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 1200px;
+  background: peachpuff;
+  padding: 30px;
+}
+
+span {
+  font-family: Arial;
+  font-size: large;
+  height: 25px;
+}
+

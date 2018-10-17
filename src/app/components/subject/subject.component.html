@@ -1,0 +1,24 @@
+<div>
+  <h2>SubjectComponent</h2>
+
+  <h3>Observer Values</h3>
+  <span *ngFor="let item of observerArrayA">
+    observerA: {{ item}}
+  </span>
+  <span *ngFor="let item of observerArrayB">
+    observerB: {{ item }}
+  </span>
+  <h3>Final Values</h3>
+  <span>observerA: {{observerA}}</span>
+  <span>observerB: {{observerB}}</span>
+
+  <h3>From Values</h3>
+  <span *ngFor="let item of fromArrayA">
+    observerA: {{ item}}
+  </span>
+  <span *ngFor="let item of fromArrayB">
+    observerB: {{ item }}
+  </span>
+
+</div>
+

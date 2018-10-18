@@ -1,10 +1,10 @@
 div {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  height: 290px;
-  background: lightblue;
+  height: 300px;
+  background: lightgray;
   margin:20px;
 }
 
@@ -13,4 +13,3 @@ span {
   font-size: large;
   height: 25px;
 }
-

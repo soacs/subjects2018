@@ -1,10 +1,10 @@
 div {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  height: 290px;
-  background: lightblue;
+  height: 240px;
+  background: lightcyan;
   margin:20px;
 }
 

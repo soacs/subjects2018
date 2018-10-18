@@ -68,9 +68,12 @@ export class SubjectComponent implements OnInit {
       }
     });
 
-    const observable = from([1, 2, 3]); // creates observable from array
 
-    observable.subscribe(subject); // You can subscribe providing a Subject since it is an observer
+    // creates observable from array
+    const observable = from([1, 2, 3]);
+
+    // You can subscribe providing a Subject since it is an observer
+    observable.subscribe(subject);
   }
 
 }
